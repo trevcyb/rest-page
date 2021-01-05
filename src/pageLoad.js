@@ -41,7 +41,7 @@ function createFooter (id) {
     return footer;
 }
 
-function loadPage () {
+function loadPage() {
     const content = document.getElementById("content");
 
     const header = createHeader('header', 'Hinga Dinga Delights');
@@ -57,4 +57,4 @@ function loadPage () {
     content.appendChild(footer);
 }
 
-export default loadPage
+export default loadPage;
